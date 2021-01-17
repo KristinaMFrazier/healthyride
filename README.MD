@@ -23,4 +23,4 @@ Also, it is not necessary to replicate this analysis using the 2020 Q3 data. In 
 ## Acknowledgements
 All of the datasets used for this project was accessed through the [Western Pennsylvania Regional Data Center](http://www.wprdc.org/). The [Healthy Ride](https://healthyridepgh.com/) organization provided their data to WPRDC.
 
-This project was also part of a submission to completion of Udacity's Become a Data Scientist Nanodegree.
+This project was also part of a submission in completion of Udacity's Become a Data Scientist Nanodegree.
