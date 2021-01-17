@@ -36,14 +36,13 @@ Those who wish to replicate this analysis should follow along with the code bloc
 Also, it is not necessary to replicate this analysis using the 2020 Q3 data. In fact, new seasonal insights may be uncovered by using another quarter, or even by aggregating multiple datasets. However, please note some changes to the datasets that Healthy Ride may have made based on new classifications of data, additional stations, etc., which may require some adjustments to the code to preserve functionality if you use earlier datasets. For example, it is only in the most recent quarters that Healthy Ride allowed for "dockless" start and end locations. Therefore, only in recent quarters are these dockless trips listed with start and end locations not at official bikeshare stations. This and other changes are documented on the [Healthy Ride data website](https://healthyridepgh.com/data/).
 
 ## Repo File Structure & File Descriptions
-project
-.
-+-- _data
-|   +-- _healthy-ride-rentals-q3-2020.csv (trip data)
-|   +-- _healthy-ride-station-locations-2020-q3.csv (bicycle station data)
-+-- _.gitignore
-+-- _PittHealthyRides.ipynb (main analysis notebook )
-+-- _README.MD
+
+- data/
+  - healthy-ride-rentals-q3-2020.csv (trip data)
+  - healthy-ride-station-locations-2020-q3.csv (bicycle station data)
+- gitignore
+- PittHealthyRides.ipynb (main analysis notebook )
+- README.MD
 
 ## Results Summary
 The following insights were discovered as a result of this analysis:
